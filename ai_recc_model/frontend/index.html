@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Course Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Course Recommendation System</h1>
+<p class="subtitle">Search courses and get personalized recommendations</p>
+
+<div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search for a course (e.g. Python)">
+    <button onclick="searchCourses()">Search</button>
+</div>
+
+<div class="section">
+    <h2>Search Results</h2>
+    <div id="search-results" class="course-grid"></div>
+</div>
+
+<div class="section">
+    <h2>Recommended Courses</h2>
+    <div id="recommendations" class="course-grid"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
